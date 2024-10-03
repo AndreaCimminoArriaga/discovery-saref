@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "sch": "https://schema.org/",
+    "geosp": "http://www.opengis.net/ont/geosparql#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "Dataset": "sch:Dataset",
+  }
+}
