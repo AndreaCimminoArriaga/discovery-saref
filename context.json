@@ -6,24 +6,25 @@
     "geosp": "http://www.opengis.net/ont/geosparql#",
     "upm": "https://upm.es/discovery/",
     "dcat": "http://www.w3.org/ns/dcat#",
-    "Device" :	"saref:Device",
-    "Sensor" :	"saref:Sensor",
-    "Actuator" :	"saref:Actuator",
-    "Appliance" :	"saref:Appliance",
-    "Meter" :	"saref:Meter",
-    "HVAC" :	"saref:HVAC",
-    "Switch" :	"saref:Switch",
-    "DoorSwitch" :	"saref:DoorSwitch",
-    "LightSwitch" :	"saref:LightSwitch",
-    "SmokeSensor" :	"saref:SmokeSensor",
-    "TemperatureSensor" :	"saref:TemperatureSensor",
-    "Location" : "upm:Location",
-    "WaterTemperatureSensor" : "upm:WaterTemperatureSensor",
-    "MultiSensor" : "upm:MultiSensor",
-    "Weareable" : "upm:Weareable",
-    "last_modification" :{
-       "@id": "upm:lastModification",
+    "Device": "saref:Device",
+    "Sensor": "saref:Sensor",
+    "Actuator": "saref:Actuator",
+    "Appliance": "saref:Appliance",
+    "Meter": "saref:Meter",
+    "HVAC": "saref:HVAC",
+    "Switch": "saref:Switch",
+    "DoorSwitch": "saref:DoorSwitch",
+    "LightSwitch": "saref:LightSwitch",
+    "SmokeSensor": "saref:SmokeSensor",
+    "TemperatureSensor": "saref:TemperatureSensor",
+    "Location": "upm:Location",
+    "WaterTemperatureSensor": "upm:WaterTemperatureSensor",
+    "MultiSensor": "upm:MultiSensor",
+    "Weareable": "upm:Weareable",
+    "last_modification": {
+      "@id": "upm:lastModification",
       "@type": "xsd:datetime",
+      
     },
     "location": {
       "@id": "geo:location",
@@ -47,4 +48,4 @@
       }
     }
   }
-    }
+}
