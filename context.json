@@ -24,7 +24,7 @@
     "last_modification" :{
        "@id": "upm:lastModification",
       "@type": "xsd:datetime",
-    }
+    },
     "location": {
       "@id": "geo:location",
       "@type": "@id",
