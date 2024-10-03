@@ -4,6 +4,7 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "saref": "https://saref.etsi.org/core/",
     "geosp": "http://www.opengis.net/ont/geosparql#",
+    "upm": "https://upm.es/discovery/",
     "dcat": "http://www.w3.org/ns/dcat#",
     "Device" :	"saref:Device",
     "Sensor" :	"saref:Sensor",
@@ -16,6 +17,14 @@
     "LightSwitch" :	"saref:LightSwitch",
     "SmokeSensor" :	"saref:SmokeSensor",
     "TemperatureSensor" :	"saref:TemperatureSensor",
+    "Location" : "upm:Location",
+    "WaterTemperatureSensor" : "upm:WaterTemperatureSensor",
+    "MultiSensor" : "upm:MultiSensor",
+    "Weareable" : "upm:Weareable",
+    "last_modification" :{
+       "@id": "upm:lastModification",
+      "@type": "xsd:datetime",
+    }
     "location": {
       "@id": "geo:location",
       "@type": "@id",
@@ -33,7 +42,8 @@
           "@id": "geosp:asWKT",
           "@type": "geosp:wktLiteral"
         },
-        "Point": "sf:Point"
+        "Point": "sf:Point",
+        "Geometry": "sf:Geometry"
       }
     }
   }
