@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "saref": "https://saref.etsi.org/core/",
+    "geosp": "http://www.opengis.net/ont/geosparql#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "Device" :	"saref:Device",
+    "Sensor" :	"saref:Sensor",
+    "Actuator" :	"saref:Actuator",
+    "Appliance" :	"saref:Appliance",
+    "Meter" :	"saref:Meter",
+    "HVAC" :	"saref:HVAC",
+    "Switch" :	"saref:Switch",
+    "DoorSwitch" :	"saref:DoorSwitch",
+    "LightSwitch" :	"saref:LightSwitch",
+    "SmokeSensor" :	"saref:SmokeSensor",
+    "TemperatureSensor" :	"saref:TemperatureSensor",
+    "location": {
+      "@id": "geo:location",
+      "@type": "@id",
+      "@context": {
+        "sf": "http://www.opengis.net/ont/sf",
+        "latitude": {
+          "@id": "geo:lat",
+          "@type": "xsd:float"
+        },
+        "longitude": {
+          "@id": "geo:long",
+          "@type": "xsd:float"
+        },
+        "aswkt": {
+          "@id": "geosp:asWKT",
+          "@type": "geosp:wktLiteral"
+        },
+        "Point": "sf:Point"
+      }
+    }
+  }
+    }
