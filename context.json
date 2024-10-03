@@ -23,7 +23,7 @@
     "Weareable": "upm:Weareable",
     "last_modification": {
       "@id": "upm:lastModification",
-      "@type": "xsd:datetime"
+      "@type": "xsd:dateTime"
     },
     "location": {
       "@id": "geo:location",
